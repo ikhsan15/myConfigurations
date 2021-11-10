@@ -1,0 +1,4 @@
+heroku login
+heroku keys:add
+heroku create
+git push heroku HEAD:master
