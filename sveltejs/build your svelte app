@@ -1,0 +1,20 @@
+doc : https://svelte.dev/
+
+install (windows):
+(1): https://nodejs.org/en
+(2): npm install -g degit
+
+if error : 
+  - degit : File C:\Users\ikhsan.n\AppData\Roaming\npm\degit.ps1 cannot be loaded because running scripts is disabled on this system.
+
+  - open Windows PowerShell as Administrator
+  - run : Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+
+  if success :
+  run (2)
+
+terminal at htdocs
+(3): degit sveltejs/template myproject
+(4): npm install
+(5): npm run dev
+
