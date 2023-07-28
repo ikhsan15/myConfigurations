@@ -18,3 +18,9 @@ terminal at htdocs
 (4): npm install
 (5): npm run dev
 
+
+web :
+  backend :
+    - https://pocketbase.io/
+    - https://www.prisma.io/
+    
