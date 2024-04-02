@@ -1,0 +1,37 @@
+# install cypress
+- install node js
+- create new folder & open it
+- open cmd
+    npm -i init
+    npm install cypress --save -dev
+
+# run cypress
+- npx cypress open (or) node_modules/.bin/cypress open
+
+# You can run this command to see errors between your tests and what the code should be
+- npx cypess run
+
+
+
+
+
+# errors
+
+# mengetasi > Error: ESOCKETTIMEDOUT
+  cy.visit('https://www.tokopedia.com/', 
+    {
+      headers: {
+        "Accept-Encoding": "gzip, deflate, br"
+      }
+    }
+  )
+
+# running test on specific file
+  # copy relative path file
+  npx cypress run --spec cypressSatu\cypress\e2e\tokopedia.cy.js
+
+# running test in new window
+  npx cypress run --headed
+
+# running test in a specific browser available on your system
+  npx cypress run --browser chrome
