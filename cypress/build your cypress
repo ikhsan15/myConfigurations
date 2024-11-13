@@ -17,7 +17,7 @@
 
 # errors
 
-# mengetasi > Error: ESOCKETTIMEDOUT
+# mengatasi > Error: ESOCKETTIMEDOUT
   cy.visit('https://www.tokopedia.com/', 
     {
       headers: {

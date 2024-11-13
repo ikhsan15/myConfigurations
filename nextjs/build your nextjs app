@@ -1,0 +1,30 @@
+npx create-next-app@latest
+
+Run the development server
+Run npm run dev to start the development server.
+Visit http://localhost:3000 to view your application.
+Edit theapp/page.tsx file and save it to see the updated result in your browser.
+
+npm install daisyui axios
+# daisyui untuk membuat tampilan ui
+# axios untuk koneksi ke API
+
+open tailwind.config.tg
+  ubah : plugin: []
+  menjadi :  plugins: [require("daisyui")],
+
+# install prisma
+npm install -D prisma
+# prisma client
+npm install @prisma/client
+# initialize prisma
+npx prisma init
+
+
+# migrasi prisma ke db(postgresql)
+npx prisma migrate dev
+# prisma studio
+npx prisma studio
+
+# running nextjs
+npm run dev
